@@ -6,9 +6,9 @@ class Calculator{
 		Scanner sc = new Scanner(System.in);
 		int choice = sc.nextInt();
 		System.out.print("Enter your First No : ");
-		int a = sc.nextInt();
+		float a = sc.nextFloat();
 		System.out.print("Enter your Second No : ");
-		int b = sc.nextInt();
+		float b = sc.nextFloat();
 		switch(choice){
 			case 1: System.out.println("Addition is : "+(a+b));
 				break;
