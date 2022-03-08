@@ -6,7 +6,7 @@ class Max2{
 		int a = sc.nextInt();
 		System.out.print("Enter 2nd No : ");
 		int b = sc.nextInt();
-		int max = (a>b)?a:b;
-		System.out.print(max+" is Greater");
+		int min = (a<b)?a:b;
+		System.out.print(max+" is Smaller");
 	}
 }
