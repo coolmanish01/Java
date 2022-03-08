@@ -10,9 +10,13 @@ class Max3{
 		int c = sc.nextInt();
 		if(a>b&&a>c)
 			System.out.println(a+" is Greater");
-		if(b>a&&b>c)
+		else if(b>a&&b>c)
 			System.out.println(b+" is Greater");
-		if(c>a&&c>b)
+		else if(c>a&&c>b)
 			System.out.println(c+" is Greater");
+                else if(a=b=c)
+                        System.out.println("All are Equal");
+                else
+                        System.out.println("Invalid Input");
 	}
 }
