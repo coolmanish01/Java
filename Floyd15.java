@@ -1,5 +1,5 @@
 import java.util.*;
-class Floyd{
+class Floyd15{
 	public static void main(String arg[]){
 		int i,j,k=1,n=6;
 		for(i=1;i<=n;i++){
